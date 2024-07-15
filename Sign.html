@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>
+            registrationform
+        </title>
+        <style>
+            body{
+                background-size: cover;
+            }
+        footer{
+            color: purple;
+            background-color: aqua;
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            margin-right: 50px;
+            font-size:x-large;
+        }
+        ul{list-style-type: circle;}
+        a:link{
+            color:aqua;
+        }
+        a:hover{
+            color:purple;
+        }
+        a:active{
+            color:black;
+        }
+        h1,h2{
+            color:black;
+        } 
+    </style>       
+    </head>
+    <body>
+        <body background="sign.jpg"></body>
+        <center><h1>WELCOME TO MY WEBSITE</h1></center>
+        <nav>
+        <ul>
+            <li> <a href="Home.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="contact.html">Contact</a></li> 
+            <li> <a href="Sign.html">Sign in</a></li> 
+            <li> <a href="Login.html">login</a></li>
+        </ul>
+        </nav>
+        <center>
+       <h1><hr>REGISTRATIONFORM<hr></h1><br>
+       <h1>DETAILS</h1>
+        <input type="text" name="username" placeholder="Create username"><br>
+        <input type="password" name="pass" placeholder="Create password"><br>
+       <h1>ENTER AGE :</h1>
+        <Select name="Myage">
+            <option value="below 15">below 15</option>
+            <option value="15-19">15-19</option>
+            <option value="20-25">20-25</option>
+        </Select>
+        <h1>DOB</h1>
+        <form action="/">
+            Date of Birth:
+            <input type="date" name="bname">
+        </form>
+        <h1>GENDER</h1>
+        <input type="radio" name="gender" value="f">female<br>
+        <input type="radio" name="gender" value="m">male<br>
+        <input type="radio" name="gender" value="o">others<br>
+        <h1>Courses</h1>
+        <input type="checkbox" name="HTML">I want HTML<br>
+        <input type="checkbox" name="CSS" >I want CSS<br>
+        <input type="checkbox" name="HTML5" >I want HTML5<br>
+        <h1>Course Time Period</h1>
+        <form action="#">
+          Time Period : <input type="number" name="weeks" min="1" max="12" step="1" value="1">No Of Weeks
+        </form>
+        <form action="/">
+            Select a week:
+            <input type="week">
+            Select a month:
+            <input type="month">
+        <h1>EMAIL</h1>
+        <input list="email" name="mymails">
+        <datalist id="email">
+            <option value="appu@gmail.com"></option>
+            <option value="janu@gmail.com"></option>
+            <option value="affu@gmail.com"></option>
+        </datalist>
+    </form>
+    <input type="submit">
+    </form>
+        </center>
+
+        <footer>
+            <center><h2>&copy;  2024 MY COMPANY. ALL Rights</h2></center>
+        </footer>
+    </body>
+    
+
+
+</html>

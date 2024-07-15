@@ -1,0 +1,28 @@
+h1{
+    background-color: aqua;
+    color:purple;
+}
+h2{
+    color:purple;
+    background-color: aqua;
+}
+footer{
+    color: purple;
+    text-align: center;
+    padding-top: 32%;
+}
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+    font-size:x-large;
+}
+ul{list-style-type: circle;}
+a:link{
+    color:aqua;
+}
+a:hover{
+    color:purple;
+}
+a:active{
+    color:black;
+}
